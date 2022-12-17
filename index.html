@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="a.ico" rel="shortcut icon" type="image/x-icon">
+    <script src="js/scripts.js"></script>
+    <title>portfolio</title>
+</head>
+<body>
+    <header id="header">
+        <div class="container _flex-between _al-center">
+            <h1 class="logo">
+                <a href="#home">logo</a>
+            </h1>
+            <div class="top-gnb">
+                <div class="pc-menu">
+                    <ul class="menu _flex-end _al-center">
+                        <li> <a href="#home">home</a></li>
+                        <li> <a href="#about">about</a></li>
+                        <li> <a href="#skills">skills</a></li>
+                        <li> <a href="#connect">connect</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="moblie-gnb-wrap">
+                <div class="icon-wrap _flex-center _al-center">
+                    <i class="menu-icon active">&#9776;</i>
+                    <i class="close-icon">&#10006;</i>
+                </div>
+                <div class="moblie-menu">
+                    <ul class="menu">
+                        <li> <a href="#home">home</a></li>
+                        <li> <a href="#about">about</a></li>
+                        <li> <a href="#skills">skills</a></li>
+                        <li> <a href="#connect">connect</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="close-bg"></div>
+        </div>
+    </header>
+    <main id="main">
+       <section class="section _home" id="home">
+            <div class="width-1200 _flex-center _column">
+                <div class="svg-wrap">
+                    <svg> 
+                        <text x="50%" y="50%">
+                            <tspan>const portfolio</tspan>
+                            <tspan>() =></tspan>
+                            <tspan>{;}</tspan>
+                        </text> 
+                    </svg>   
+                </div>
+                <div class="_flex-center">
+                    <div class="text-typing">
+                        <h2>Software Engineer / An JinYong - Portfolio.</h2>
+                    </div>
+                </div>
+            </div>
+       </section> 
+       <section class="section _about" id="about">
+           <div class="container">
+                <h3 class="title _flex-center"><span>about</span></h3>
+                <div class="tab-wrap">
+                    <div class="list-wrap">
+                        <ul class="_flex-start">
+                            <li class="tab _profile _flex-start _al-center active"  data-tab="tab01">
+                                <i class="icon">&#10001;</i>
+                                <span>profile</span>
+                            </li>
+                            <li class="tab _ablility _flex-start _al-center" data-tab="tab02">
+                                <i class="icon">&#9885;</i>
+                                <span>strength</span>
+                            </li>
+                            <li class="tab _mbti _flex-start _al-center" data-tab="tab03">
+                                <i class="icon">&#8981;</i>
+                                <span>mbti</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-rel-wrap _flex-between _al-center">
+                        <p><span> C : / Users / AJY / </span><span class='tab-rel'>profile</span></p>
+                        <i class="icon">⋮</i>
+                    </div>
+                    <div class="tab-content-wrap">
+                        <div id="tab01" class="tab-content _profile active">
+                            <article>
+                                <div class="title-wrap _flex-between">
+                                    <div class="title">
+                                        <h4>프로필정보</h4>
+                                    </div>
+                                    <div class="bar-wrap _flex-end">
+                                        <span class="bar-orange"></span>
+                                        <span class="bar-purple"></span>
+                                        <span class="bar-skyblue"></span>
+                                    </div>
+                                </div>
+                                <div class="info _flex-start">
+                                    <div class="left-side">
+                                        <div class="img-wrap">
+                                            <img class="profile-img" src="img/giphy.gif" alt="profile-img">
+                                        </div>
+                                        <div class="cont-wrap">
+                                            <h4 class="level">Lv.1 주니어 개발자</h4>
+                                            <h4 class="nickname">AJY<span>@jihk555</span></h4>
+                                            <div class="tags-wrap _flex-start _al-center">
+                                                <span>#신입</span>
+                                                <span>#코딩</span>
+                                                <span>#개발자</span>
+                                                <span>#남자</span>
+                                                <span>#INFP</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right-side">
+                                        <div class="tab-text _tab-table _info"> 
+                                            <h5>info</h5>
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>name</td>
+                                                        <td>안진용</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>birth</td>
+                                                        <td>1997.02.01</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>address</td>
+                                                        <td>전라북도 전주 서신동</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>e-mail</td>
+                                                        <td>jihk555@gmail.com</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                        <div class="tab-text _education">
+                                            <h5>education</h5>
+                                            <table>
+                                                <tr>
+                                                    <td>15.03 ~ 17.02</td>
+                                                    <td>전북과학대학 (2년제)<br>스마트정보과 학사 졸업</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+
+                                        <div class="tab-text _career">
+                                            <h5>career</h5>
+                                            <table>
+                                                <tr>
+                                                    <td>22.12 ~ </td>
+                                                    <td>(주)오아시스스토리 </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>22.08 ~ 22.11</td>
+                                                    <td>(주)고백기술 </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+
+                                        <div class="tab-text _introduce">
+                                            <h5>introduction</h5>
+                                            <p>안녕하세요. 배울것이 많고 많이 부족한 신입 개발자 안진용입니다.</p>
+                                            <p>제 포트폴리오 사이트에 방문해주셔서 정말 감사합니다.</p>
+                                            <p>하루하루 꾸준히 공부해 성장하는 개발자가 되겠습니다</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div id="tab02" class="tab-content _strength">
+                            <article>
+                                <div class="title-wrap _flex-between">
+                                    <div class="title">
+                                        <h4>저의 "강점"은...</h4>
+                                    </div>
+                                    <div class="bar-wrap _flex-end">
+                                        <span class="bar-orange"></span>
+                                        <span class="bar-purple"></span>
+                                        <span class="bar-skyblue"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="img-wrap">
+                                        <img class="profile-img" src="img/strength.png" alt="캐릭터이미지">
+                                    </div>
+                                    <div class="tab-text _tab-table _strength">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td><i class="icon _book"></i> 성장</td>
+                                                    <td>저는 새로운 것에 대해 두려워하기 보단 호기심을 가지는 편입니다.
+                                                        개발자라는 직업은 끊임없이 공부하고 탐구해야한다고 생각합니다.
+                                                    제 생각을 코드라는 도구를 통해 창작물을 만들어내는 과정을 즐기고 있습니다. </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><i class="icon _dom"></i>분석</td>
+                                                    <td>오류에 대한 분석하는 능력을 가지고 있습니다.
+                                                        자주 겪는 오류 문제에 대해 코드 분석이 필수라고 생각합니다.
+                                                        문제 되는 코드를 해결하기 위해 다양한 측면에서 정보를 수집하며
+                                                        디버깅 작업을 수행해나갈 능력을 갖추고 있습니다.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><i class="icon _timer"></i>책임</td>
+                                                    <td>저는 업무에 대해 책임감을 가지고 일을 합니다.
+                                                        프로젝트는 팀단위로 같이 하는 작업인 만큼 맡은 업무에 대한 책임을 가지고
+                                                        프로세스 진행 과정에서 차질이 없도록 피드백에 대해 거부감없이
+                                                        소통에 참여할 수 있습니다.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div id="tab03" class="tab-content _mbti">
+                            <article>
+                                <div class="title-wrap _flex-between">
+                                    <div class="title">
+                                        <h4>저의 "MBTI" 는..</h4>
+                                    </div>
+                                    <div class="bar-wrap _flex-end">
+                                        <span class="bar-orange"></span>
+                                        <span class="bar-purple"></span>
+                                        <span class="bar-skyblue"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <h5>저의 성격유형은 <span>"INFP"</span> 입니다.</h5>
+                                    <div class="character">
+                                        <div class="caption _mind">
+                                            <p>마음</p>
+                                            <div class="bar _flex-between">
+                                                <span class="per _left">29%</span>
+                                                <div class="center-bar"><span class="bar _blue"></span></div>
+                                                <span class="per _right _blue">71%</span>
+                                            </div>
+                                            <div class="text-wrap _flex-between">
+                                                <span class="text _left">외향형</span>
+                                                <span class="text _right _blue">내향형</span>
+                                            </div>
+                                        </div>
+                                        <div class="caption _energy">
+                                            <p>에너지</p>
+                                            <div class="bar _flex-between">
+                                                <span class="per _left _orange">67%</span>
+                                                <div class="center-bar"><span class="bar _orange"></span></div>
+                                                <span class="per _right">33%</span>
+                                            </div>
+                                            <div class="text-wrap _flex-between">
+                                                <span class="text _left _orange">직관형</span>
+                                                <span class="text _right">현실주의형</span>
+                                            </div>
+                                        </div>
+                                        <div class="caption _self">
+                                            <p>본성</p>
+                                            <div class="bar _flex-between">
+                                                <span class="per _left">39%</span>
+                                                <div class="center-bar"><span class="bar _green"></span></div>
+                                                <span class="per _right _green">61%</span>
+                                            </div>
+                                            <div class="text-wrap _flex-between">
+                                                <span class="text _left">이성적사고형</span>
+                                                <span class="text _right _green">원칙주의형</span>
+                                            </div>
+                                        </div>
+                                        <div class="caption _tactics">
+                                            <p>전술</p>
+                                            <div class="bar _flex-between">
+                                                <span class="per _left">39%</span>
+                                                <div class="center-bar"><span class="bar _purple"></span></div>
+                                                <span class="per _right _purple">61%</span>
+                                            </div>
+                                            <div class="text-wrap _flex-between">
+                                                <span class="text _left">계획형</span>
+                                                <span class="text _right _purple">탐색형</span>
+                                            </div>
+                                        </div>
+                                        <div class="caption _identity">
+                                            <p>자아</p>
+                                            <div class="bar _flex-between">
+                                                <span class="per _left">10%</span>
+                                                <div class="center-bar"><span class="bar _red"></span></div>
+                                                <span class="per _right _red">90%</span>
+                                            </div>
+                                            <div class="text-wrap _flex-between">
+                                                <span class="text _left">자기주장형</span>
+                                                <span class="text _right _red">신중형</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </section> 
+       <section class="section _skills" id="skills">
+           <div class="container">
+                <h3 class="title _flex-center"><span>skills</span></h3>
+                <div class="skill-wrap _wrap01">
+                    <h4>stacks</h4>
+                    <div class="chart-wrap _flex-between">
+                        <div class="chart _item01">
+                            <div class="doughnut _python">
+                                <svg viewBox="0 0 100 100">
+                                    <circle cx="50" cy="50" r="45"  transform="rotate(-90 50 50)"/>
+                                    <circle class="gauge" cx="50" cy="50" r="45" stroke="#30A9DE" transform="rotate(-90 50 50)"/>
+                                </svg>
+                                <div class="per-wrap _flex-center _column _al-center">
+                                    <p class="language">Python</p>
+                                    <p class="per" data-per="70">0%</p>
+                                </div>
+                            </div>
+                            <div class="text-wrap">
+                                <p>opencv 활용 이미지처리, pandas 활용 데이터처리 등 다양한 모듈 사용이 가능합니다</p>
+                            </div>
+                        </div>
+                        <div class="chart _item01">
+                            <div class="doughnut _html">
+                                <svg viewBox="0 0 100 100">
+                                    <circle cx="50" cy="50" r="45"  transform="rotate(-90 50 50)"/>
+                                    <circle class="gauge" cx="50" cy="50" r="45" stroke="#E53A40" transform="rotate(-90 50 50)"/>
+                                </svg>
+                                <div class="per-wrap _flex-center _column _al-center">
+                                    <p class="language">HTML 5</p>
+                                    <p class="per" data-per="80">0%</p>
+                                </div>
+                            </div>
+                            <div class="text-wrap">
+                                <p>HTML 시멘틱구조를 따르며 목적에 맞는 태그활용 가능합니다.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="chart _item01">
+                            <div class="doughnut _css">
+                                <svg viewBox="0 0 100 100">
+                                    <circle cx="50" cy="50" r="45"  transform="rotate(-90 50 50)"/>
+                                    <circle class="gauge" cx="50" cy="50" r="45" stroke="#FAA523" transform="rotate(-90 50 50)"/>
+                                </svg>
+                                <div class="per-wrap _flex-center _column _al-center">
+                                    <p class="language">CSS 3</p>
+                                    <p class="per" data-per="50">0%</p>
+                                </div>
+                            </div>
+                            <div class="text-wrap">
+                                <p>가상선택자, 미디어쿼리, 기본적인 애니메이션 활용 가능합니다.</p>
+                            </div>
+                        </div>
+                        <div class="chart _item01">
+                            <div class="doughnut _js">
+                                <svg viewBox="0 0 100 100">
+                                    <circle cx="50" cy="50" r="45"  transform="rotate(-90 50 50)"/>
+                                    <circle class="gauge" cx="50" cy="50" r="45" stroke="#F2B401" transform="rotate(-90 50 50)"/>
+                                </svg>
+                                <div class="per-wrap _flex-center _column _al-center">
+                                    <p class="language">JS</p>
+                                    <p class="per" data-per="55">0%</p>
+                                </div>
+                            </div>
+                            <div class="text-wrap">
+                                <p>JavaScript 문법을 이해하고 Node.js, React 활용 가능합니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-wrap _wrap02">
+                    <h4>I can do</h4>
+                    <ul class="img-wrap _flex-center">
+                        <li><img src="img/git.png" alt="깃"></li>
+                        <li><img src="img/excel.png" alt="엑셀"></li>
+                        <li><img src="img/powerpoint.png" alt="파워포인트"></li>
+                        <li><img src="img/word.png" alt="워드"></li>
+                    </ul>
+                </div>
+           </div>
+       </section> 
+       
+       <section class="section _connect" id="connect">
+            <div class="container">
+                <h3 class="title _flex-center"><span>connect</span></h3>
+                <div class="connect-wrap">
+                    <h4 class="sub-title">
+                        끝까지 저의 사이트 봐주셔서 감사합니다.<br>
+                        계속해서 노력하는 웹퍼블리셔가 되겠습니다.
+                    </h4>
+                    <div class="_flex-center">
+                        <div class="left-side">
+                            <div class="img-box">
+                                <img src="img/kakao.jpg" alt="qrcode">
+                            </div>
+                            <p>카카오톡 친구 QR코드</p>
+                        </div>
+                        <div class="right-side _flex-center _al-center">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>이메일</td>
+                                        <td>jihk555@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>카카오톡ID</td>
+                                        <td>jihk555</td>
+                                    </tr>
+                                    <tr>
+                                        <td>전화번호</td>
+                                        <td>010-2771-5266</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="github" href="http://github.com/jihk321" target="_blank">github</a>
+       </section>  
+    </main>
+    <footer id="footer" class="abc _flex-center _column">
+        <p>이 페이지는 상업용 목적이 아닌 개인 포트폴리용으로 제작되었습니다.</p>   
+    </footer>
+</body>
+</html>
